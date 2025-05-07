@@ -1,23 +1,86 @@
 # dependencies
 /node_modules
+/jspm_packages/
 /package-lock.json
+/bower_components
 
 # environment variables
 .env
 .env.local
 .env.development
+.env.development.local
 .env.test
+.env.test.local
 .env.production
+.env.production.local
 
 # logs
 logs
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
 
 # build directory
 /build
 /dist
+/out
+/.next
+/.nuxt
+build/Release
+.vuepress/dist
+**/.vitepress/dist
 
 # system files
 .DS_Store
 Thumbs.db
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Testing & coverage
+lib-cov
+coverage
+*.lcov
+.nyc_output
+.vscode-test
+
+# Cache directories
+.npm
+.eslintcache
+.stylelintcache
+.cache
+.parcel-cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.temp
+**/.vitepress/cache
+.docusaurus
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+
+# TypeScript
+*.tsbuildinfo
+
+# Other
+.node_repl_history
+*.tgz
+.yarn-integrity
+.lock-wscript
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
